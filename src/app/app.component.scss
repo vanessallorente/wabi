@@ -1,0 +1,21 @@
+.c-app {
+	max-width: 1200px;
+	margin: 0 auto;
+	&__header {
+		height: 150px;
+		background-image: url('../assets/wabiproject.jpeg');
+		background-position: center;
+		background-size: cover;
+	}
+  &__content {
+    padding: 3rem 2rem;
+  }
+
+  &__clouds {
+    position: fixed;
+    bottom: -160px;
+    left: -230px;
+    z-index: -10;
+    width: 1920px;
+  }
+}
